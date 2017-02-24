@@ -9,12 +9,12 @@ function quadraticEquation (a,b,c) {
     alert(x1 + ' ' + x2);
 }
 
-var a = getUserNumber('введіть чило a \n (a не повинно дорвінюваиі 0)');
+var a = getUserNumber('введіть чило a \n (a не повинно дорвінювати 0)');
 var b = getUserNumber('введіть чило b');
 var c = getUserNumber('введіть чило c');
 
 if (a===0) {
-    alert('некоректне значення. \n a не повинно дорвінюваиі 0')
+    alert('некоректне значення. \n a не повинно дорвінювати 0')
 } else {
     quadraticEquation(a, b, c);
 }
